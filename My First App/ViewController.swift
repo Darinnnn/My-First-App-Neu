@@ -50,6 +50,8 @@ class ViewController: UIViewController {
     
     func showNubmer(myNubmer:Int) -> Void {
         print("myNubmer = \(myNubmer)")
+        
+        numberLabel.text = String(myNubmer)
     }
     
     
