@@ -34,6 +34,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="534" width="175" height="48"/>
                                 </variation>
+                                <connections>
+                                    <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voX-MZ-x0N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW8-JD-FbK">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -45,6 +48,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="194" y="534" width="186" height="48"/>
                                 </variation>
+                                <connections>
+                                    <action selector="indecreasesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwc-Df-wFD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2z-sf-7zt">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -75,6 +81,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="c2z-sf-7zt" id="Azk-NC-Mt0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
